@@ -13,12 +13,10 @@ export function AppRoutes() {
                 name="groups"
                 component={Groups}
             />
-
             <Screen
                 name="newGroup"
                 component={NewGroup}
             />
-
             <Screen
                 name="players"
                 component={Players}
@@ -26,3 +24,5 @@ export function AppRoutes() {
         </Navigator>
     );
 }
+
+
